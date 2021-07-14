@@ -85,14 +85,14 @@ nav {
 }
 
 .card-titles {
-    background-color: darkgray;
+    background-color: #d4d4d4 !important;
     width: 100%;
     padding: 10px;
     text-align: center;
-    position: relative;
+    
+    
 }
 
-.card-body {
- 
-    margin: 0px;
+.card-bodys {
+    margin: 15px;
 }
