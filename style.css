@@ -49,15 +49,18 @@ nav {
 .rows {
     background-color: #FFF7BD;
     width: 370px;
-    padding-top: 62px;
+    padding-top: 66px;
     padding-bottom: 41.5px;
     border-style: solid;
     border-width: 3px;
-    
 }
 
 .top {
-
+    border-bottom: none;
+    border-radius: 10%;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
 }
 
 .middle {
@@ -66,10 +69,30 @@ nav {
 }
 
 .bottom {
-    
+    border-top: none;
+    border-bottom-right-radius: 10%;
 }
 
 .ex1 {
     position: relative;
     top: 20px;
+}
+
+.card {
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.card-titles {
+    background-color: darkgray;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.card-body {
+ 
+    margin: 0px;
 }
